@@ -4,7 +4,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="td" value="// TODO: " description="TODO" toReformat="false" toShortenFQNames="true">
+  <template name="tdo" value="// TODO: " description="TODO" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
