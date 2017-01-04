@@ -5,4 +5,10 @@
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
+  <template name="im" value="import $NAME$ from '$END$';" description="import module" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
