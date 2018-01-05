@@ -11,7 +11,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imc" value="import classes from '$END$';" description="imports for css classes (import classes from ...)" toReformat="true" toShortenFQNames="true">
+  <template name="imc" value="import classes from './$END$';" description="imports for css classes (import classes from ...)" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
