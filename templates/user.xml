@@ -56,4 +56,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="red" value="const initialState = {&#10;  &#10;};&#10;&#10;const $REDUCERNAME$ = (state = initialState, action) =&gt; {&#10;  switch (action.type) {&#10;    case $ACTIONTYPE$:&#10;      return {&#10;        $END$&#10;      };&#10;    default:&#10;      return state;&#10;  }&#10;};&#10;&#10;export default $REDUCERNAME$;" description="Reducer" toReformat="false" toShortenFQNames="true">
+    <variable name="REDUCERNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTIONTYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
